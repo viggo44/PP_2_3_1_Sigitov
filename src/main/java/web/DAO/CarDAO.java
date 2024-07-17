@@ -13,11 +13,11 @@ public class CarDAO {
 
     public CarDAO() {
         cars = new ArrayList<Car>();
-        cars.add(new Car("yellow", 10, "V8"));
-        cars.add(new Car("black", 5, "V6"));
-        cars.add(new Car("white", 3, "V4"));
-        cars.add(new Car("pink", 1, "V8"));
-        cars.add(new Car("blue", 2, "V6"));
+        cars.add(new Car("Желтый", 10, "V8"));
+        cars.add(new Car("Черный", 5, "V6"));
+        cars.add(new Car("Белый", 3, "V4"));
+        cars.add(new Car("розовый", 1, "V8"));
+        cars.add(new Car("синий", 2, "V6"));
     }
 
     public List<Car> getCars(Integer count) {
